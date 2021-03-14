@@ -1,0 +1,30 @@
+img{
+    width: 50vh;
+    height: 25vh;
+}
+p,h3{
+    font-style: oblique;
+    font-family:'cursive';
+    color: black;
+    font-size: x-large;
+}
+h3{
+    padding-left: 20%;
+    color:rgb(8, 135, 240)
+}
+
+ngb-carousel {
+   background-color:lightcyan;
+    position: absolute;
+    object-fit:cover;
+    width: 90%;
+    margin-top:0.5%;
+    left:3%;
+    min-height: 100px;
+    
+    
+}
+.col{
+padding-top: 2%;
+background: #212121;
+}

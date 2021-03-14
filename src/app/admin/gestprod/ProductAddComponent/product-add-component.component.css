@@ -1,0 +1,56 @@
+
+.f{
+  margin-top: 5%;
+}
+
+.b{
+  
+  background: url(./../../../../assets/admin.png) ;
+
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 80px;
+left: 0;
+}
+
+form{
+  border: thick double #222729;
+  background-image: url(./../../../../assets/admin.png);
+  margin-top:7%;
+  margin-left:30%;
+
+width: 40%;
+}
+label ,input{
+    text-size-adjust: 5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color:cornsilk;
+    border-radius: 2% white;
+}
+input[type="text"]
+{
+    background: transparent;
+   
+  
+}
+:host{
+  background-color: solid #333;
+}
+.error{
+  color: red;
+  font-size: 15px;
+}
+input[type="file"] {
+  font-size: 0.9em;
+  padding-top: 0.35rem;
+}
+.input:focus {
+  outline: 3px solid transparent;
+}
+.z{
+  font-size: 120%;
+}

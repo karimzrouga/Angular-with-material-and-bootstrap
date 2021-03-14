@@ -1,0 +1,144 @@
+.all{
+
+    background-image: url("../../../assets/nn.png");
+}
+.all1{
+    background-image: url("../../../assets/nn.png");
+}
+
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+.box1{background: rgb(76, 175, 80, 0.6);}
+.box2{background: rgb(192, 192, 200, 0.6);}
+.box3{background: rgb(255, 0, 0, 0.6);;}
+
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+.contact {
+    text-align: center;
+    padding: 5rem;
+  }
+  
+  .contact__form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+  
+  .contact__form input {
+    flex-basis: calc(100% / 3 - 4rem);
+    background: #c2baba;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    margin: 2rem;
+  }
+  
+  .contact__form textarea {
+    width: 100%;
+    margin: 0 2rem 2rem 2rem;
+    padding: 2rem;
+    height: 10rem;
+    outline: none;
+    border: none;
+    background: #c2baba;
+    resize: none;
+  }
+  
+  .contact__center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact__info {
+    align-self: center;
+    margin: 0 2rem;
+    font-size: 1.4rem;
+  }
+  
+  .contact__info span {
+    margin: 0 1rem;
+  }
+  
+  .contact__info--icon {
+    color: #e8c300;
+    margin-right: 0.5rem;
+  }
+  
+  .contact__form button {
+    flex: 0 0 30%;
+    padding: 0.5rem;
+    margin: 0 2rem;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .contact__form input {
+      flex: 0 0 100%;
+    }
+  
+    .contact__form textarea {
+      margin: 2rem;
+      flex: 0 0 100%;
+    }
+  
+    .contact__form button {
+      margin: 2rem 0;
+    }
+  
+    .contact__info {
+      margin: 0;
+    }
+  }
+  .text-center {
+      color:honeydew;
+      
+     
+  }
+  @media screen and (max-width: 700px) {
+    .contact__center {
+      flex-direction: column;
+    }
+  
+    .contact__info span {
+      width: 100%;
+    }
+  
+    .contact button {
+      order: -1;
+      margin-bottom: 2rem;
+      
+    }
+}
+.banner__btns {
+  display: flex;
+  
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.btn-orange {
+  background: orange;
+  font-size: 20px;  
+
+}
+
+.btn-white {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.39);
+}
+.text-bold  , .section__title ,.text-center {
+    color: honeydew;
+    
+    
+}
+  

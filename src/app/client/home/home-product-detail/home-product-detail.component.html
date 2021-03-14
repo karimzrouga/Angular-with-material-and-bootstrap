@@ -1,0 +1,27 @@
+<!--<div>
+        
+        <h1 >Detail du produit : {{prd.nom}}
+        </h1>
+         <img  alt="..." id="imag" >
+        <h2> {{prd.description}} </h2>
+        <h2 >  {{prd.prix}}  </h2>
+</div> -->
+<div class="card-container fixed-top">
+	<span class="pro">{{prd.nom}}</span>
+	<img class="round" [src]="prd.image"  alt="prod"  width="80%" height="80%"/>
+	<h3>{{prd.nom}}</h3>
+	
+
+	<div class="buttons">
+		<p>${{prd.prix}}</p>
+		<p>{{prd.description}}</p>
+		<button class="primary">
+			ajouter au panier
+		</button>
+		<button class="primary ghost" (click)=" navigateToFirst()  ">
+			commander 
+		</button>
+	</div>
+	
+</div>
+

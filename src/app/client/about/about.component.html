@@ -1,0 +1,43 @@
+
+  <div class="about"><div class="all" >
+    <section id="contact" class="contact">
+    <h4 class="section__title">contact</h4>
+    <div class="line"></div>
+    <p class="text-bold">Bienvenue sur wish, votre centre commercial en ligne avec des millions de produits de haute qualité offrant un bon rapport qualité/prix. Nous vous offrirons un aperçu sur des articles abordables issus du monde entier avec votre design favori et des accessoires prisés.
+
+        Vova est une société internationale de commerce électronique. Après avoir rencontré un grand succès, nous explorons afin de trouver plus de domaines en expansion : alors allez voir et rejoignez – nous !</p>
+    <form [formGroup]="aboutForm" class="contact__form"   (ngSubmit)="mesg()">
+      <input type="text" placeholder="Name" formControlName="name">
+      <input type="email" placeholder="Email" formControlName="email">
+      <input type="phone" placeholder="Phone" formControlName="num">
+      <textarea placeholder="Message" formControlName="text"></textarea>>
+      <div class="contact__center">
+        <div class="contact__info">
+          <span><i class="fas fa-phone contact__info--icon"></i> 435 454 232</span><br>
+          <span><i class="fas fa-mail-bulk contact__info--icon"></i> wishplus@globwish.com</span>
+        </div>
+        <button class="btn  btn-orange " type="submit">send message</button>
+      </div>
+    </form>
+  </section>
+  
+</div>
+<div class="all1">
+  <!-------------------------------------------------------->
+  <h4 class="text-center" style="width: 20%; margin-top: -3%; opacity: 0.5; margin-left: 38%;">Adresse </h4>
+  <div class="container-fluid">
+    
+      
+  
+     <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.9216770740654!2d10.612159914435667!3d35.80185608016629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8aaf32a4647f%3A0x7ae14f2d2c358385!2sInstitut%20Sup%C3%A9rieur%20des%20Etudes%20Technologiques%20de%20Sousse!5e0!3m2!1sfr!2stn!4v1610353553532!5m2!1sfr!2stn" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
+    </div>
+    <div class="row text-center bg-info text-white" id="author">
+      <div class="col-12 mt-4 h3 ">
+      
+      <a routerLink="/client/home" Home target="_blank">wish</a>
+    </div>
+    
+    </div>
+</div></div>

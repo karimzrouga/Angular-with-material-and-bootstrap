@@ -1,0 +1,29 @@
+
+  <div class="b"><form [formGroup]="productAddForm" (ngSubmit)="onAjouter()">
+      <div class="f"><div>
+      <label >nom produit : </label> <input type = "text" name = "Nameprod" formControlName="nameControl" >
+    </div> 
+    <br/>
+    <div>
+        <label >prix : </label> <input type = "text" name = "prix" formControlName="prixControl" >
+      </div>
+      <br>
+      <div>
+        <label >description :</label>  <input type = "text" name = "description" formControlName="descriptionControl">
+      </div>
+      <br/>
+      <div> 
+        <label  class="z">Select a image:</label>
+        <input type="file"  name="image"  formControlName="imageControl"> <br><br>
+
+        <select formControl="CategorieControl"  formControlName="categControl">
+            <option name="">Categorie1</option>
+            <option name="">Categorie2</option>
+            <option name="">Categorie3</option>
+        </select>
+      </div>
+        <br><br>
+        <button type="submit" class="btn btn-success btn-block login-btn">Ajouter</button>
+      </div>
+        
+      </form></div>

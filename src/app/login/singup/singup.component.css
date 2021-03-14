@@ -1,0 +1,56 @@
+
+  .card-header {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 5px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
+    font-size: 100%;
+  }
+  .or-seperator {
+    margin: 10px 0 5px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+
+.input-group-addon .fa{
+    font-size: 18px;
+}
+.card {
+    background-color:#f7f7f7;
+   max-width: 50%;
+    max-height: 90%;
+  bottom: 100%;
+   left:40%;
+   opacity: 0.9;
+   
+}
+
+a{
+   padding-left: 10% 5% 10%;
+   font-size: 10px;
+   width: 100%;
+}
+ input #name {
+    width: 100%;
+    
+    padding: 5px 2px 2px 2px;
+    margin: 1px 5px;
+    box-sizing: border-box;  
+}
+.margin-left{
+    
+    margin-left: -5% ;
+}
+.margin-right{
+    
+    margin-left: -50% ;
+}

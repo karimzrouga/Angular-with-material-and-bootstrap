@@ -1,0 +1,36 @@
+
+<div class="custom-padding">
+    <nav>
+      <div class="logo current">
+        wish
+      </div>
+      <ul class="menu-area  snip1189 ">
+        <li class="current"> 
+          <a routerLink="client/home">Home</a>
+        </li>
+        <li>
+          <a routerLink="client/home/about" >About</a>
+        </li>
+        <li>
+          <a  routerLink="client/login" class="h">{{name}}  <img  class="im"  src="../assets/images/favpng_avatar-icon-human-icon-person-icon.png"></a>
+
+        </li>
+        <li>
+          <a routerLink="client/store">Panier<img  class="im"  src="../assets/images/shopping-cart-512.png"></a>
+
+        </li>
+        <li style="color: rgb(255, 255, 255);"> <p>{{myval}}</p></li>
+        <li class="search-container">
+         
+              <input type="text" placeholder="Search.." name="search" #box>
+             
+              <button style="background-color: #4e4e4e;" type="submit" (click)="getval(box.value)" >  <bi name="search" class="someclass"></bi></button>
+         
+
+        </li>
+       
+      </ul>
+      
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
